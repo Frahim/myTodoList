@@ -1,8 +1,5 @@
 import React, {useState} from "react";
 
-
-
-
 export default function Form(props){
     const [name, setName] = useState('');
 
@@ -32,7 +29,7 @@ export default function Form(props){
             value={name}
             onChange={handleChange}
           />
-          <button type="submit" className="btn btn__primary btn__lg">
+          <button type="submit" className="btn btn__primary btn__md">
             Add
           </button>
         </form>
